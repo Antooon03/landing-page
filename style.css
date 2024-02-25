@@ -1,3 +1,187 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.div1_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 15px;
+}
+
+.div1_top_logo {
+    display: flex;
+    justify-content: start;
+}
+
+.div1_top_links {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    color: white;
+    margin-right: 900px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.links {
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    font-size: large;
+}
+
+.div1_bottom {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.div1_picture {
+    height: 350px;
+    width: auto;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.div2_pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+    margin: 50px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.information_header_Text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.picture_Heroes {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 3px solid #1F2937;
+}
+
+.picture_spacing {
+    margin: 35px;
+    height: 280px;
+}
+
+.subtext_pictures {
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.address {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-right: 50px;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1000px;
+    color: white;
+}
+
+.div4_middle_text {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    font-size: large;
+}
+.button_top {
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.button_bottom {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid white;
+    height: 35px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.button_content {
+    text-decoration: none;
+    color: white;
 }
